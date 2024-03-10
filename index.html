@@ -22,10 +22,11 @@
     <main>
       <section class="intro">
         <h1 class="intro__title">
-          Уличная мебель <span class="bold">из натурального дерева</span>
+          Уличная мебель <span class="accent">из натурального дерева</span> от
+          Казахстанского производителя
         </h1>
         <p class="intro__text">от Казахстанского производителя</p>
-        <a href="#" class="intro__link">Оставить заявку</a>
+        <button class="intro__btn" type="button">Оставить заявку</button>
         <ul class="intro__list">
           <li class="intro__item">
             <img class="intro__img" src="" alt="" />
@@ -65,31 +66,33 @@
             </p>
           </li>
         </ul>
-        <a href="#" class="about__link">Оставить заявку</a>
-        <h2 class="about__title">Об изделиях</h2>
-        <ul class="about__list-form">
-          <li class="about__item-form">
-            <img class="about__img-plus" src="" alt="" />
-            <h3 class="about__item-title">Обработанное дерево</h3>
-            <p class="about__item-text">
+        <button class="about__btn" type="button">Оставить заявку</button>
+      </section>
+      <section class="products">
+        <h2 class="products__title">Об изделиях</h2>
+        <ul class="products__list-form">
+          <li class="products__item-form">
+            <img class="products__img-plus" src="" alt="" />
+            <h3 class="products__item-title">Обработанное дерево</h3>
+            <p class="products__item-text">
               Сохраняет
-              <span class="bold">первоначальный внешний вид</span> даже под
+              <span class="accent">первоначальный внешний вид</span> даже под
               воздействием солнца и влаги
             </p>
           </li>
-          <li class="about__item-form">
-            <img class="about__img-plus" src="" alt="" />
-            <h3 class="about__item-title">Натуральное дерево</h3>
-            <p class="about__item-text">
+          <li class="products__item-form">
+            <img class="products__img-plus" src="" alt="" />
+            <h3 class="products__item-title">Натуральное дерево</h3>
+            <p class="products__item-text">
               Лиственница, ангарская сосна, дуб, карагач
             </p>
           </li>
-          <li class="about__item-form">
-            <img class="about__img-plus" src="" alt="" />
-            <h3 class="about__item-title">Акриловая ткань</h3>
-            <p class="about__item-text">
+          <li class="products__item-form">
+            <img class="products__img-plus" src="" alt="" />
+            <h3 class="products__item-title">Акриловая ткань</h3>
+            <p class="products__item-text">
               Обладает
-              <span class="bold">водо- и грязеоталкивающими свойствами,</span>
+              <span class="accent">водо- и грязеоталкивающими свойствами,</span>
               ткань сохраняет цвет окраса даже после стирки и длительного
               воздействия солнца
             </p>
@@ -140,37 +143,42 @@
             <p class="catalog__item-text">Матрас для лежака</p>
           </li>
         </ul>
-        <a href="#" class="catalog__link">Оставить заявку</a>
+        <button class="catalog__btn" type="button">Оставить заявку</button>
       </section>
       <section class="individual">
         <h2 class="individual__title">Ничего не подошло?</h2>
         <p class="individual__text">
           Тогда мы можем изготовить для вас мебель
-          <span class="bold"> по индивидуальному дизайну </span>
+          <span class="accent"> по индивидуальному дизайну </span>
         </p>
         <div class="form_wrapper">
-          <form action="#" method="get"></form>
-          <label>
-            <input placeholder="Ваше имя*" type="text" name="username" />
-          </label>
-          <label>
-            <input placeholder="Ваш телефон*" type="number" name="usernumber" />
-          </label>
-          <label>
-            <textarea name="comment" placeholder="Ваш комментарий"></textarea>
-          </label>
+          <form action="#" method="get">
+            <label>
+              <input placeholder="Ваше имя*" type="text" name="username" />
+            </label>
+            <label>
+              <input
+                placeholder="Ваш телефон*"
+                type="number"
+                name="usernumber"
+              />
+            </label>
+            <label>
+              <textarea name="comment" placeholder="Ваш комментарий"></textarea>
+            </label>
+          </form>
           <p class="individual__rules">
             Нажимая на кнопку, вы двете согласие на
-            <a href="#" class="individual__rules rules"
-              >обработку персональных данных</a
-            >
+            <button class="individual__rules rules" type="button">
+              обработку персональных данных
+            </button>
           </p>
-          <a href="#" class="individual__link">Оставить заявку</a>
+          <button class="individual__btn" type="button">Оставить заявку</button>
         </div>
       </section>
       <section class="order">
         <h2 class="order__title">Как получить заказ?</h2>
-        <ul class="order__list">
+        <ol class="order__list">
           <li class="order__item">
             <img class="order__img" src="" alt="" />
             <h3 class="order__item-title">Заявка</h3>
@@ -194,56 +202,63 @@
               Срок получения зависит от вашего региона и занимает от 3-7 дней
             </p>
           </li>
-        </ul>
-        <a href="#" class="order__link">Оставить заявку</a>
+        </ol>
+        <button class="order__btn" type="button">Оставить заявку</button>
       </section>
       <section class="reviews">
         <h2 class="reviews__title">Отзывы</h2>
         <ul class="reviews__list">
           <li class="reviews__item">
-            <img class="reviews__img" src="" alt="" />
-            <h3 class="reviews__item-title">Анна Ивановна</h3>
-            <p class="reviews__item-text">
-              Качество и прочность этой мебели просто потрясают меня. Она
-              изготовлена из высококачественного дерева, которое не только
-              выглядит прекрасно, но и обладает прочными свойствами. Мебель
-              выдерживает даже интенсивное использование и долгие периоды на
-              открытом воздухе, сохраняя свою привлекательность и
-              функциональность.Дачная мебель из дерева также добавила особый
-              шарм и натуральность моему саду. Она гармонично вписывается в
-              окружающую природу и создает приятную атмосферу для отдыха и
-              проведения времени на природе. Кроме того, дерево придает мебели
-              теплоту и природную красоту, что делает ее привлекательной для
-              глаза и приятной на ощупь.
-            </p>
+            <blockquote class="reviews__item-block" cite="#">
+              <img class="reviews__img" src="" alt="" />
+              <h3 class="reviews__item-title">Анна Ивановна</h3>
+              <p class="reviews__item-text">
+                Качество и прочность этой мебели просто потрясают меня. Она
+                изготовлена из высококачественного дерева, которое не только
+                выглядит прекрасно, но и обладает прочными свойствами. Мебель
+                выдерживает даже интенсивное использование и долгие периоды на
+                открытом воздухе, сохраняя свою привлекательность и
+                функциональность.Дачная мебель из дерева также добавила особый
+                шарм и натуральность моему саду. Она гармонично вписывается в
+                окружающую природу и создает приятную атмосферу для отдыха и
+                проведения времени на природе. Кроме того, дерево придает мебели
+                теплоту и природную красоту, что делает ее привлекательной для
+                глаза и приятной на ощупь.
+              </p>
+            </blockquote>
           </li>
           <li class="reviews__item">
-            <img class="reviews__img" src="" alt="" />
-            <h3 class="reviews__item-title">Кирилл Котов</h3>
-            <p class="reviews__item-text">
-              Я бы хотел поделиться своим восхищением относительно мебели из
-              дерева для моей дачи. Она превратила мою отдыхающую зону в
-              настоящий райский уголок и добавила неповторимую атмосферу природы
-              и комфорта.Первое, что я заметил, это качество изготовления.
-              Каждая деталь моей дачной мебели тщательно вырезана и скручена,
-              создавая прочную и устойчивую конструкцию. Дерево, используемое в
-              изготовлении, кажется очень прочным и долговечным, что делает мою
-              мебель идеальной для использования на открытом воздухе.
-            </p>
+            <blockquote class="reviews__item-block" cite="#">
+              <img class="reviews__img" src="" alt="" />
+              <h3 class="reviews__item-title">Кирилл Котов</h3>
+              <p class="reviews__item-text">
+                Я бы хотел поделиться своим восхищением относительно мебели из
+                дерева для моей дачи. Она превратила мою отдыхающую зону в
+                настоящий райский уголок и добавила неповторимую атмосферу
+                природы и комфорта.Первое, что я заметил, это качество
+                изготовления. Каждая деталь моей дачной мебели тщательно
+                вырезана и скручена, создавая прочную и устойчивую конструкцию.
+                Дерево, используемое в изготовлении, кажется очень прочным и
+                долговечным, что делает мою мебель идеальной для использования
+                на открытом воздухе.
+              </p>
+            </blockquote>
           </li>
           <li class="reviews__item">
-            <img class="reviews__img" src="" alt="" />
-            <h3 class="reviews__item-title">Андрей Головин</h3>
-            <p class="reviews__item-text">
-              В целом, дачная мебель из дерева оправдала все наши ожидания и
-              стала незаменимым элементом нашего загородного участка. Мы
-              наслаждаемся ее красотой, прочностью и функциональностью, и
-              настоятельно рекомендуем ее всем, кто ищет качественную и
-              привлекательную мебель для отдыха на своей даче.
-            </p>
+            <blockquote class="reviews__item-block" cite="#">
+              <img class="reviews__img" src="" alt="" />
+              <h3 class="reviews__item-title">Андрей Головин</h3>
+              <p class="reviews__item-text">
+                В целом, дачная мебель из дерева оправдала все наши ожидания и
+                стала незаменимым элементом нашего загородного участка. Мы
+                наслаждаемся ее красотой, прочностью и функциональностью, и
+                настоятельно рекомендуем ее всем, кто ищет качественную и
+                привлекательную мебель для отдыха на своей даче.
+              </p>
+            </blockquote>
           </li>
         </ul>
-        <a href="#" class="reviews__link">Оставить заявку</a>
+        <button class="reviews__btn" type="button">Оставить заявку</button>
       </section>
       <section class="clients">
         <h2 class="clients__title">Наши клиенты</h2>
@@ -280,14 +295,23 @@
           <img class="contacts_img" src="" alt="" />
           <iframe src="" frameborder="0" class="contacts__map"></iframe>
         </div>
-        <p class="contacts__text">
-          Адрес - Москва, Степана Разина 119 Телефон - 7 982 658 25 85 ТОО
-          «Консалтинговая Компания Financial-Tax Analytics» БИН 181 040 010 133
-          Юридический адрес: г.Астана, пр.Мәңгілік Ел, 19, к.304 Почтовый адрес:
-          г.Астана, ул.Кордай, 2, кв.60 ИИК KZ76 9650 3F00 0817 5335 БИК
-          IRTYKZKA в АО "ForteBank" мобильный/ватсап + 7 778 775 77 68,
-          info@fintax.kz
+        <p class="contacts__text-address">Адрес - Москва, Степана Разина 119</p>
+        <a href="#" class="contacts__text-number">Телефон - 7 982 658 25 85</a>
+        <p class="contacts__text-company">
+          ТОО «Консалтинговая Компания Financial-Tax Analytics» БИН 181 040 010
+          133
         </p>
+        <p class="contacts__text-legaladdress">
+          Юридический адрес: г.Астана, пр.Мәңгілік Ел, 19, к.304
+        </p>
+        <p class="contacts__text-mailaddress">
+          Почтовый адрес: г.Астана, ул.Кордай, 2, кв.60
+        </p>
+        <p class="contacts__text-otherinfo">
+          ИИК KZ76 9650 3F00 0817 5335 БИК IRTYKZKA в АО "ForteBank"
+        </p>
+        <p class="contacts__text-phone">мобильный/ватсап + 7 778 775 77 68</p>
+        <p class="contacts__text-email">info@fintax.kz</p>
       </section>
     </main>
   </body>
